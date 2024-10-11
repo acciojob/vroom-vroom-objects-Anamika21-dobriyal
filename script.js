@@ -28,6 +28,12 @@ SportsCar.prototype.getTopSpeed = function () {
   return this.topSpeed;
 };
 
+
+// Example usage:
+const car = new SportsCar("Ferrari", "Testarossa", 200);
+console.log(car.getMakeModel()); // Output: Ferrari Testarossa
+console.log(car.getTopSpeed()); // Output: 200
+
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
